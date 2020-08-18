@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Roda a Roda WEB</title>
+	<link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACUElEQVRYR+3XS6iMYRjA8d+hyIKiJCsJsSBJIsSCbGxcyjVZuGUjnJJLSCEpiSK5rJRLESUJSSLXhKWFSEIKSRZs6Jm+7/T5mjPzTqcz5yzOW7OZeZ7n/T/3d1p08Wnp4vv1APREoNtGIMCGYRFm4B324nNi14zBdvTHDVzFl2q61SIwGPuwJDOQ6z3DRjzC33ZA+mIhdmF0QeYnjuAAfhV1qwGswukant7BPfwpyYS3szG5Hd2AmI/QbztlgIE4kwkmRrshsaPYgt+5VhlgFq6UQl/rhseIsE9IxHiCpXhbDaA3dmNngrEI58qsuEJvPcK7lLM6i3JFthiB4ThfI4dF4zexHF+zL6PgLmJ8AkFEOOrsexlgAS4nGAiR+1iGD5l8pCAARiXof8I8PC0CRB4PYkOCgVwkorUHQ7ADcxrQbcXhaOc8BTF0zmFqA0Y6InoJUQs/coBp2cSKXm7GeYXFeJ0DrMOJZtxcuCNSdjsA+mQjclOTATZHHQRATL+zmNtkgONoDYCRuICJTQa4jhUBEBdfw9AEgHwRfcSbkvwIxDCbjpkJth7GLAmA6IAHdRRuYRte1FjFuYlemIRDme32TFc6IQXgFLbiW4JXRZGYLcdq1FYbwBSEh9VmwH7E579HRAMgg7IOW1NF53k8evKnV3kKxraL8XqyuLsbuLgo2i+qPXsHFJ2sTMMAiHUaPRm7IE48vSLkdxPyncoUdRHLLt6VsTnDwbXRffkkDIGxWRpediDk9YAGYBzeZ5u0bRnVU+y037vt/4JO87hs+B+SWmfaE4jIqQAAAABJRU5ErkJggg==">
+	<link rel="stylesheet" href="style.css">
+	 <!-- <meta http-equiv="refresh" content="30; URL='index.html'"/> -->
+</head>
+<body onselectstart="return false">
+	<div id="gameDisplay">
+		<div id="containerLetter">
+
+			<div class="character off" id="c0">+</div>
+			<div class="character noUsable" id="c1">+</div>
+			<div class="character noUsable" id="c2">+</div>
+			<div class="character noUsable" id="c3">+</div>
+			<div class="character noUsable" id="c4">+</div>
+			<div class="character noUsable" id="c5">+</div>
+			<div class="character noUsable" id="c6">+</div>
+			<div class="character noUsable" id="c7">+</div>
+			<div class="character noUsable" id="c8">+</div>
+			<div class="character noUsable" id="c9">+</div>
+			<div class="character noUsable" id="c10">+</div>
+			<div class="character noUsable" id="c11">+</div><br>
+			<div class="character noUsable" id="c12">+</div>
+
+			<div class="character on" id="c13">+</div>
+			<div class="character on" id="c14">+</div>
+			<div class="character on" id="c15">+</div>
+			<div class="character on" id="c16">+</div>
+			<div class="character on" id="c17">+</div>
+			<div class="character on" id="c18">+</div>
+			<div class="character on" id="c19">+</div>
+			<div class="character on" id="c20">+</div>
+			<div class="character on" id="c21">+</div>
+			<div class="character on" id="c22">+</div>
+			<div class="character on" id="c23">+</div>
+
+			<div class="character  noUsable" id="c24">+</div><br>
+			<div class="character noUsable" id="c25">+</div>
+
+			<div class="character on" id="c26">+</div>
+			<div class="character on" id="c27">+</div>
+			<div class="character on" id="c28">+</div>
+			<div class="character on" id="c29">+</div>
+			<div class="character on" id="c30">+</div>
+			<div class="character on" id="c31">+</div>
+			<div class="character on" id="c32">+</div>
+			<div class="character on" id="c33">+</div>
+			<div class="character on" id="c34">+</div>
+			<div class="character on" id="c35">+</div>
+			<div class="character on" id="c36">+</div>
+
+			<div class="character noUsable" id="c37">+</div><br>
+			<div class="character noUsable" id="c38">+</div>
+
+			<div class="character on" id="c39">+</div>
+			<div class="character on" id="c40">+</div>
+			<div class="character on" id="c41">+</div>
+			<div class="character on" id="c42">+</div>
+			<div class="character on" id="c43">+</div>
+			<div class="character on" id="c44">+</div>
+			<div class="character on" id="c45">+</div>
+			<div class="character on" id="c46">+</div>
+			<div class="character on" id="c47">+</div>
+			<div class="character on" id="c48">+</div>
+			<div class="character on" id="c49">+</div>
+			
+			<div class="character noUsable" id="c50">+</div><br>
+			<div class="character off" id="c0">+</div>
+			<div class="character noUsable" id="c51">+</div>
+			<div class="character noUsable" id="c52">+</div>
+			<div class="character noUsable" id="c53">+</div>
+			<div class="character noUsable" id="c54">+</div>
+			<div class="character noUsable" id="c55">+</div>
+			<div class="character noUsable" id="c56">+</div>
+			<div class="character noUsable" id="c57">+</div>
+			<div class="character noUsable" id="c58">+</div>
+			<div class="character noUsable" id="c59">+</div>
+			<div class="character noUsable" id="c60">+</div>
+			<div class="character noUsable" id="c61">+</div>
+
+		</div>
+		<section><br>
+			<span>
+				<h5>Letras:</h5> 
+				<h6 id="boardLetter"></h6>
+			</span><br>
+			<span>
+				<h4>Dica:<span id="dica"></span></h4><br> 
+			</span><br>
+			<span>
+				<input placeholder="Digite a letra aqui" onkeypress="searchLetter(document.getElementById('letterSearch').value)"  type="text" maxlength="1" id="letterSearch">
+			</span><br><br>
+		</section>
+	</div>
+	<div id="gameSettings">
+		<button id="startButton" onclick="themeGame()">Start Game</button>
+	</div>
+
+	<script src="js/app.js"></script>
+	<script src="js/setWordFunction.js"></script>
+	<script src="js/wordsChar.js"></script>
+	<script src="js/setLineFunction.js"></script>
+	<script src="js/themes.js"></script>
+</body>
+</html>
